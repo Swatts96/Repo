@@ -1,0 +1,32 @@
+"use strict";
+
+function main()
+{
+        // enter your code here
+}
+
+if (require.main === module)
+{
+        main();
+}
+
+
+"use strict";
+
+function main()
+{
+    // Options for running multiple lines. 
+    console.log("Hickory dickory dock!")
+    console.log("The red wings are gonna win the cup")
+
+    console.log("Hickory dickory dock!\nThe Mouse ran up the clock")
+}
+if (require.main === module)
+{
+        main();
+}
+
+
+    // How can we ask a user for information> 
+    // var readlineSync = require('readline-sync');
+    // var name = readlineSync.question("what is your name? ")  
